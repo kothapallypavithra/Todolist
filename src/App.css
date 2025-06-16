@@ -1,0 +1,17 @@
+/*simply divide into sections for that we use grid*/
+
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%; /*topbottom 20 and left and right 8*/
+}
+/*make  large enough to cover the space*/
+/*add new task column*/
+.task_column {
+  width: 33.33%;
+  margin: 20px;
+}
